@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CGIEMPC | Member Details</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!-- External CSS -->
+    <!-- Change paths of href depending on the location of the file -->
+    <link rel="stylesheet" href="member_style.css">
+ </head>
+
+  <body>
+    <div class="container"> 
+      <div class="nav-tabs d-flex justify-content-between align-items">
+        <div class="d-flex flex-row mb-2 p-3">
+          <strong><p style="font-size: large;">Member &nbsp;|</p></strong>
+          <div class="p-1 tab-title"> 
+            &nbsp; Profile 
+          </div>
+        </div>
+      </div>
+
+
+      <ul class="nav" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">  
+          <a class="nav-link active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="true" style="color: black;">Profile</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="candidacy-tab" data-bs-toggle="tab" data-bs-target="#candidacy" type="button" role="tab" aria-controls="candidacy" aria-selected="true" href="#" style="color: black;">Candidacy History</a>
+        </li>
+        <!-- <li class="nav-item" role="presentation">
+          <a class="nav-link" href="#" style="color: black;">Voting History</a>
+        </li> -->
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="voting-tab" data-bs-toggle="tab" data-bs-target="#voting" type="button" role="tab" aria-controls="voting" aria-selected="true" href="#" style="color: black;">Voting History</a>
+        </li>
+      </ul>
+
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <section class="h-100 gradient-custom-2">
+            <div class="container py-5 h-100">
+              <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col col-lg-9 col-xl-7">
+                  <div class="card">
+                    <div class="rounded-top text-white d-flex flex-row" style="background-color: #E6E168; height:180px;">
+                      <div class="ms-5 mt-5 d-flex flex-column" style="width: 150px;">
+                        <img src="ell_logo.png"
+                          alt="Generic placeholder image" class="profile-img mt-5 mb-2"
+                          style="width: 150px; z-index: 1;">
+    
+                      </div>
+                      <div class="ms-2" style="margin-top: 140px;">
+                        <h5 style="font-size: x-large;">Yvana Eunice Salita Magno</h5>
+                      </div>
+                    </div>
+    
+                    <div class="card-body p-5 text-black">
+                      <div class="mb-2">
+                        <p class="lead fw-normal mb-3">Personal Information</p>
+                        <div class="p-4" style="background-color: #f8f9fa;">
+                          <strong>
+                          <p class="font-italic mb-2">Alias / Also known as : </p><br>
+                          <p class="font-italic mb-2">Email Address : </p><br>
+                          <p class="font-italic mb-2">Contact no. : </p><br>
+                          <p class="font-italic mb-2">Department : </p><br>
+                          <p class="font-italic mb-2">Description: </p><br>
+                          <p class="font-italic mb-2">Gender : </p><br>
+                          <p class="font-italic mb-2">Position : </p><br>
+                          <p class="font-italic mb-2">Year of Membership : </p><br> 
+                        </strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              <hr>
+              <div class="d-flex justify-content-end"> <!-- justify to end bootstrap-->
+                <div>        
+                  <a href="members.html"><button type="button" class="btn px-4 ms-2" data-mdb-ripple-color="dark"
+                  style="z-index: 1;">
+                  Back
+                  </button></a>
+                  <a href="member_editform.html"><button type="button" class="btn px-4" data-mdb-ripple-color="dark"
+                  style="z-index: 1;">
+                  Edit
+                  </button></a> 
+                </div>
+              </div>  
+            </div>
+          </section>
+        </div>
+
+        <div class="tab-pane fade" id="candidacy" role="tabpanel" aria-labelledby="candidacy-tab">
+          <div class="mt-5 ms-5 me-5">
+            <table class="table">
+                <thead style="background-color: #E6E168; color: black">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Election Title</th>
+                    <th scope="col">Election Year</th>
+                    <th scope="col">Election Position</th>
+                    <th scope="col">Tools</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Election 1</td>
+                    <td>2021</td>
+                    <td>President/td>
+                    <td>
+                        <button type="button" class="btn-secondary"> Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Election 1</td>
+                    <td>2022</td>
+                    <td>Voted</td>
+                    <td>
+                        <button type="button" class="btn-secondary"> Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Election 1</td>
+                    <td>2023</td>
+                    <td>Voted</td>
+                    <td>
+                        <button type="button" class="btn-secondary"> Delete</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+            <div class="d-flex justify-content-end"> <!-- justify to end bootstrap-->
+                <div>        
+                  <a href=""><button type="button" class="btn px-4 ms-2" data-mdb-ripple-color="dark"
+                  style="z-index: 1;">
+                  Back
+                  </button></a>
+                </div>
+            </div>
+          </div>  
+        </div>
+
+        <div class="tab-pane fade" id="voting" role="tabpanel" aria-labelledby="voting-tab">
+          <div class="mt-5 ms-5 me-5">
+            <table class="table">
+                <thead style="background-color: #E6E168; color: black">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Election Title</th>
+                    <th scope="col">Election Year</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Tools</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Election 1</td>
+                    <td>2021</td>
+                    <td>Voted</td>
+                    <td>
+                        <button type="button" class="btn-secondary"> Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Election 1</td>
+                    <td>2022</td>
+                    <td>Voted</td>
+                    <td>
+                        <button type="button" class="btn-secondary"> Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Election 1</td>
+                    <td>2023</td>
+                    <td>Voted</td>
+                    <td>
+                        <button type="button" class="btn-secondary"> Delete</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+            <div class="d-flex justify-content-end"> <!-- justify to end bootstrap-->
+                <div>        
+                  <a href=""><button type="button" class="btn px-4 ms-2" data-mdb-ripple-color="dark"
+                  style="z-index: 1;">
+                  Back
+                  </button></a>
+                </div>
+            </div>
+        </div>
+        </div>
+
+      </div>
+
+    </div>
+   
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <script>
+      $('a[data-bs-toggle="tab"]')
+      $('a[data-bs-toggle="tab"]').on('show.bs.tab', function (e) {
+        // console.log(e.target); // newly activated tab
+        $('.tab-title').text($(e.target).text());
+      });
+    </script>
+  
+  </body>
+
+</html>

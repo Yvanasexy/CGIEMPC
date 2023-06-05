@@ -1,0 +1,116 @@
+
+p {
+    color: black;
+    font-size: 24;
+    text-align: left;
+    display: inline-block; /* to allow elements occupy same row */
+}
+
+h2 {
+    padding: 1em;
+}
+
+.btn {
+    color: white;
+    background-color: #87EA9D;
+    float: right;
+   
+}
+
+/* tables */
+thead{
+    background-color: #87EA9D;
+}
+tr:hover {
+    background-color: lightgreen;
+    opacity: .6;
+}
+table{
+    border-radius: 70%;
+    
+}
+
+
+/* containers */
+.container {
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: white;
+}
+
+
+.dropdown-menu .dropdown-item:hover{
+    background-color: lightgreen;
+    opacity: .5;
+}
+
+
+/* CAROUSEL STYLE / candidate*/
+.img-wrapper {
+    max-width: 100%;
+    height: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+img {
+max-width: 100%;
+max-height: 100%;
+}
+@media screen and (min-width: 576px) {
+.carousel-inner {
+    display: flex;
+
+    position: relative;
+}
+.carousel-item{
+    display: block;
+    margin-right: 0;
+    flex: 0 0 calc(90% / 3);
+    position: relative;
+}
+.carousel-item:hover {
+    -ms-transform: scale(1.15); /* IE 9 */
+    -webkit-transform: scale(1.15); /* Safari 3-8 */
+    transform: scale(1.15);
+    z-index: 1000;
+  }
+.img-wrapper {
+    height: 21vw;
+}
+}
+.carousel-inner {
+padding: 2em;
+}
+.card {
+margin: 0 0.5em;
+border-radius: 0;
+box-shadow: 2px 6px 8px 0 rgb(22, 22, 26, 0.18);
+font-size: 0.9em;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+width: 6vh;
+height: 6vh;
+background-color: lightgreen;
+border-radius: 70%;
+top: 50%;
+transform: translateY(-50%);
+opacity: 0.5;
+}
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+opacity: 0.8;
+}
+
+.shadow {
+    color: #87EA9D;
+}
+
+/* candidate card list */
+.card {
+    box-shadow: 5px 5px 20px #87EA9D;
+
+}

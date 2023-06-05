@@ -1,0 +1,55 @@
+  /* containers */
+  .container {
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: white;
+}
+
+p {
+    color: black;
+    font-size: 24;
+    text-align: left;
+    display: inline-block; /* to allow elements occupy same row */
+}
+
+h2 {
+    padding: 1em;
+}
+
+h5 {
+    color: black;
+}
+
+.btn {
+    color: white;
+    background-color: #E6E168;
+    float: right;
+   
+}
+
+
+/* nav tab / profile*/
+.nav-item .nav-link:hover {
+    background-color: #E6E168;
+    color: black;
+  }
+
+.nav-item .nav-link.active {
+    background-color: #E6E168;
+    
+  }
+
+/*Profile*/
+.profile-img {
+border-radius: 80%;
+border: 7px solid white;
+}
+
+.card{
+box-shadow: 5px 5px 30px #E6E168;
+}
+
+.card-body{
+    margin-top: 5%;
+}

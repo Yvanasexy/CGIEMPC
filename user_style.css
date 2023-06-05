@@ -1,0 +1,78 @@
+  /* containers */
+  .container {
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.content{
+    background-color: #F4F4F4;
+    width: 90%;
+    align-items: center;
+    border-radius: 3%;
+}
+
+.content-item{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.center-item{
+    align-items: center;
+}
+
+p {
+    color: black;
+    font-size: 24;
+    text-align: left;
+    display: inline-block; /* to allow elements occupy same row */
+}
+
+h2 {
+    padding: 1em;
+}
+
+h5 {
+    color: black;
+}
+
+.btn {
+    color: white;
+    background-color: #7D8FF0;
+    float: right;
+    margin-top: 5%; 
+}
+
+.delete_btn{
+    color: white;
+    background-color: #F58484;
+    float: right;
+    margin-top: 5%; 
+}
+
+/* nav tab / profile*/
+.nav-item .nav-link:hover {
+    background-color: #7D8FF0;
+    color: black;
+  }
+
+.nav-item .nav-link.active {
+    background-color: #7D8FF0;
+    
+  }
+
+/*Profile*/
+.profile-img {
+border-radius: 80%;
+border: 7px solid white;
+}
+
+.card{
+box-shadow: 5px 5px 30px #7D8FF0;
+}
+
+.card-body{
+    margin-top: 5%;
+}
